@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C264D99235FAC96001CA762 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C264D98235FAC96001CA762 /* main.cpp */; };
+		7C264DAA235FACD9001CA762 /* analyze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C264DA6235FACD9001CA762 /* analyze.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,15 @@
 
 /* Begin PBXFileReference section */
 		7C264D95235FAC96001CA762 /* Analyze */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Analyze; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C264D98235FAC96001CA762 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7C264DA1235FACD9001CA762 /* error3.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = error3.ini; sourceTree = "<group>"; };
+		7C264DA2235FACD9001CA762 /* gage2scope.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gage2scope.ini; sourceTree = "<group>"; };
+		7C264DA3235FACD9001CA762 /* error1.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = error1.ini; sourceTree = "<group>"; };
+		7C264DA4235FACD9001CA762 /* error4.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = error4.ini; sourceTree = "<group>"; };
+		7C264DA5235FACD9001CA762 /* 2_Record2308.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2_Record2308.dat; sourceTree = "<group>"; };
+		7C264DA6235FACD9001CA762 /* analyze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = analyze.cpp; sourceTree = "<group>"; };
+		7C264DA7235FACD9001CA762 /* as_ch01-0537xx_Record1042.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "as_ch01-0537xx_Record1042.dat"; sourceTree = "<group>"; };
+		7C264DA8235FACD9001CA762 /* error2.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = error2.ini; sourceTree = "<group>"; };
+		7C264DA9235FACD9001CA762 /* 2_Record3388.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2_Record3388.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,15 @@
 		7C264D97235FAC96001CA762 /* Analyze */ = {
 			isa = PBXGroup;
 			children = (
-				7C264D98235FAC96001CA762 /* main.cpp */,
+				7C264DA5235FACD9001CA762 /* 2_Record2308.dat */,
+				7C264DA9235FACD9001CA762 /* 2_Record3388.dat */,
+				7C264DA6235FACD9001CA762 /* analyze.cpp */,
+				7C264DA7235FACD9001CA762 /* as_ch01-0537xx_Record1042.dat */,
+				7C264DA3235FACD9001CA762 /* error1.ini */,
+				7C264DA8235FACD9001CA762 /* error2.ini */,
+				7C264DA1235FACD9001CA762 /* error3.ini */,
+				7C264DA4235FACD9001CA762 /* error4.ini */,
+				7C264DA2235FACD9001CA762 /* gage2scope.ini */,
 			);
 			path = Analyze;
 			sourceTree = "<group>";
@@ -119,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C264D99235FAC96001CA762 /* main.cpp in Sources */,
+				7C264DAA235FACD9001CA762 /* analyze.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
